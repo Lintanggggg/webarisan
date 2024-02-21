@@ -1,0 +1,40 @@
+/* styling for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  th {
+    text-align: left;
+  }
+  /* styling for form */
+  form {
+    margin: 20px 0;
+  }
+  input[type='text'], input[type='email'] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type='submit'] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  /* styling for buttons */
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+  }
